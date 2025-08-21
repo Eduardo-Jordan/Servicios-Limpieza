@@ -1,11 +1,81 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Servicios-Limpieza</title>
+    <title>Servicio de Limpieza Residencial</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Servicios,Limpieza</h1>
+
+    <!-- Encabezado con logo y título -->
+    <header>
+        <img src="logo.png" alt="Logo de limpieza" class="logo">
+        <h1>Servicio de Limpieza Residencial</h1>
+        <p>Tu hogar limpio, fresco y reluciente</p>
+    </header>
+
+    <!-- Presentación de la empresa -->
+    <section class="presentacion">
+        <img src="limpieza-hogar.jpg" alt="Imagen de limpieza en casa">
+        <div class="texto">
+            <h2>¿Quiénes somos?</h2>
+            <p>Somos expertos en limpieza de casas, departamentos y espacios residenciales. Nuestro equipo garantiza
+                resultados impecables y atención personalizada.</p>
+        </div>
+    </section>
+
+    <!-- Servicios ofrecidos -->
+    <section class="servicios">
+        <h2>Servicios que ofrecemos</h2>
+        <ul>
+            <li>Limpieza profunda de cocinas y baños</li>
+            <li>Aspirado y trapeado de pisos</li>
+            <li>Limpieza de ventanas y cristales</li>
+            <li>Organización de espacios</li>
+        </ul>
+    </section>
+
+    <!-- Galería de imágenes -->
+    <section class="galeria">
+        <h2>Antes y después</h2>
+        <div class="imagenes">
+            <img src="antes.jpg" alt="Antes de la limpieza">
+            <img src="despues.jpg" alt="Después de la limpieza">
+        </div>
+    </section>
+
+    <!-- Sección de informes con botón -->
+    <section class="informes">
+        <h2>Informes de servicio</h2>
+        <p>Consulta los reportes detallados de limpieza realizados en tu hogar o departamento.</p>
+        <a href="informes.html" class="boton-informes">Ver informes</a>
+    </section>
+
+    <!-- Formulario de contacto -->
+    <section class="contacto">
+        <h2>Contáctanos</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2025 Servicio de Limpieza Residencial. Todos los derechos reservados.</p>
+    </footer>
+
 </body>
+
 </html>
